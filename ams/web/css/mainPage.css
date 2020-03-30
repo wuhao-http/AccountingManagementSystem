@@ -1,0 +1,81 @@
+body{
+    background: url(../img/main_bg.jpg);
+    position: relative;
+}
+#cav{
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index: -1;
+}
+.container{
+	background: url(../img/accsys_bg.jpg);
+	background-position: 0px -12px;
+	background-size: 100%;
+	margin-top: 1%;
+	height: 550px;
+}
+.modal-content{
+	background-image:url(../../img/modal_bg.jpg);
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+}
+#head{
+	border-bottom: burlywood double 2px;
+}
+.border{border: 1px double bisque;}
+
+.areaSize{
+	width: 280px;
+	height: 90px;
+	font-size: 24px;
+	font-family: 微软雅黑;
+	color: moccasin;
+	background: #dad7d17a
+}
+
+.areaSize:hover{
+	background: #acacffc9
+}
+#fun button{
+	border:1px solid cornsilk;
+}
+#left .row{
+	margin-top: 5px;
+}
+#left small{
+	font-weight:bolder;
+	color:#333333;
+}
+
+#ledgerCount{
+	margin-top:2%;
+	width: 600px;
+	height: 350px; 
+	background:#F3F3F3;
+}
+#queForm button:hover{
+	background: #2f4554d6;
+	color:#f8f7fd;
+}
+#queForm button{
+	background: #61a0a8;
+	font-weight: bolder;
+}
+
+#imdTitle{
+	height: 35px;
+}
+#title h2{
+	margin-top: 10px;
+    margin-bottom: 30px;
+    color: #b1ccd0;
+}
+
+#title h4{
+	font-weight: bolder;
+	border-bottom: double 3px #c0c0c0;
+	width: 75px;
+	color: #5a979e;
+}

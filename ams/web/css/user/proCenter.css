@@ -1,0 +1,126 @@
+body{
+    background: url(../../img/main_bg.jpg);
+    position: relative;
+}
+#cav{
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index: -1;
+}
+.nav.nav-tabs a{
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	font-weight: bolder;
+	color: #2b2d91;
+}
+.container {
+	background: url(../../img/accSys-pro-center-bg.jpg) no-repeat;
+	background-position: 0px -12px;
+	background-size: 100%;
+	margin-top: 1%;
+	height: 585px
+}
+.modal-content{
+	background-image:url(../../img/modal_bg.jpg);
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+}
+#head {
+	border-bottom: burlywood double 2px;
+}
+
+.border {
+	border: 1px double bisque;
+}
+
+.areaSize {
+	width: 280px;
+	height: 90px;
+	font-size: 24px;
+	font-family: 微软雅黑;
+	/* color: moccasin; */
+}
+
+#fun button {
+	background: none;
+}
+
+#left .row {
+	margin-top: 5px;
+}
+
+.selectLabel {
+	margin: 0;
+	padding: 0;
+	width: 45px;
+	line-height: 55px;
+	/* color: paleturquoise; */
+}
+
+.select-con {
+	padding: 0;
+	padding-left: 5px;
+	line-height: 45px;
+	padding-top: 10px;
+}
+/*重写bootstrap各行换色效果*/
+table.table-striped tr:nth-child(odd) {
+	background: lightgray;
+}
+
+table.table-striped tr:nth-child(even) {
+	background: linen;
+}
+/*重写鼠标移动效果*/
+.table.table-hover tr:hover {
+	background: paleturquoise;
+}
+
+.table1 {
+	border: #CCCCCC 3px solid;
+	margin-top: 10px;
+	background: whitesmoke;
+}
+
+.table {
+	margin: 0;
+}
+
+.table tbody tr td {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.showStyle {
+	line-height: 33px;
+	font-family: "微软雅黑";
+	font-weight: bolder;
+	font-size: 14px;
+	color: chocolate;
+}
+
+.control-label {
+	line-height: 35px;
+	color: darkslateblue;
+	font-size: 16px;
+}
+
+.underLine {
+	border-bottom: 1px cornsilk solid;
+}
+
+.control-label{
+	line-height: 18px
+}
+
+textarea{
+	resize:none;
+	background: none;
+	font-weight: bolder;
+	font-family: 微软雅黑;
+	margin-bottom: 3%;
+	font-size: 14px
+}

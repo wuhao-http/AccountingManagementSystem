@@ -1,0 +1,163 @@
+@CHARSET "UTF-8";
+
+.nav.nav-tabs a{
+	font-size: 16px;
+	font-family: "microsoft yahei";
+	/* font-weight: bolder; */
+	color: #12f2ff;
+}
+body{
+    background: url(../../img/main_bg.jpg);
+    position: relative;
+}
+#cav{
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index: -1;
+}
+
+.container {
+	background: url(../../img/accSys-sortMng-bg.jpg) no-repeat;
+	background-position: 0px -12px;
+	background-size: 100%;
+	margin-top: 1%;
+	height: 100%;
+}
+.modal-content{
+	background-image:url(../../img/modal_bg.jpg);
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+}
+#head {
+	border-bottom: burlywood double 2px;
+}
+
+.border {
+	border: 1px double bisque;
+}
+
+.areaSize {
+	width: 280px;
+	height: 90px;
+	font-size: 24px;
+	font-family: 微软雅黑;
+	/* color: moccasin; */
+}
+
+#fun button {
+	background: none;
+}
+
+#left .row {
+	margin-top: 5px;
+}
+
+.selectLabel {
+	margin: 0;
+	padding: 0;
+	width: 45px;
+	line-height: 55px;
+	/* color: paleturquoise; */
+}
+
+.select-con {
+	padding: 0;
+	padding-left: 5px;
+	line-height: 45px;
+	padding-top: 10px;
+}
+/*重写bootstrap各行换色效果*/
+table.table-striped tr:nth-child(odd){
+	background: lightgray;
+}
+
+/*重写bootstrap各行换色效果*/
+table.table-striped tr:nth-child(even){
+	background: linen;
+}
+/*重写鼠标移动效果*/
+.table.table-hover tr:hover {
+	background: paleturquoise;
+}
+
+.table1 {
+	border: #CCCCCC 3px solid;
+	margin-top: 10px;
+	background: whitesmoke;
+}
+
+.table {
+	margin: 0;
+}
+
+.table tbody tr td {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.sty{
+	height: 375px;
+	width:438px
+}
+
+#sortInfoTable{
+	background-color:rgba(87, 99, 113, 0.88);
+}
+#sortInfoTable>thead th,#sortInfoTable>tbody{
+	text-align: center;
+	font-weight: bolder;
+}
+
+ul.pagination.pagination-sm{
+	margin: 10px 0 6px 0;
+}
+
+.table-responsive.table1{
+	height: 345px;
+}
+
+#sortMngTbl>table th,#sortMngTbl>table td{
+	text-align: center;
+	line-height: 35px;
+	/* font-size: 16px;*/
+	font-weight: bolder; 
+	margin: 0px;
+	padding: 0px;
+}
+#sortMngTbl button{
+	line-height: 1;
+    font-weight: bolder;
+    color: #6A3598;
+}
+
+/* 表头固定 */
+/* 表头居中 */
+	th {
+		text-align: center;
+	}
+	
+	/* 表格内容居中 */
+	table {
+		text-align: center;
+	}
+	
+	/* 固定表头  */
+	.fixedhead {
+		position: fixed;
+		/* background: white; */
+	}
+	
+	#fixedhead th{
+		background-color: #8080c0;
+	}
+	
+	
+#countSortMsg b{
+	color:#ccd2cd
+}
+#countSortMsg b:hover{
+	color:#ffffff
+}

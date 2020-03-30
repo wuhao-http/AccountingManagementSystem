@@ -1,0 +1,102 @@
+/*报表系统外部样式*/
+#menu>h3{
+	margin-bottom: 5%;
+}
+
+#head{
+	border-bottom: burlywood double 2px;
+}
+body{
+    background: url(../../img/main_bg.jpg);
+    position: relative;
+}
+#cav{
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index: -1;
+}
+.container{
+	background: url(../../img/accsys_bg.jpg);
+	background-position: 0px -12px;
+	background-size: 100%;
+	margin-top: 5px;
+}
+
+#riskMenu{
+	width: 20%;
+	padding-top: 2%;
+}
+#riskMain{
+	height: 500px;
+    width: 79%;
+    padding-top: 5px;
+}
+.riskQueCon{
+	border-bottom: 3px double #d2b53b;
+	padding-bottom: 1%
+}
+/* #riskData{
+	padding-top: 1%;
+} */
+.buttom-spacing{
+	padding-bottom: 1%
+}
+.border{
+	width: 90%;
+	margin: 0 auto;
+}
+.bold{
+	font-weight: bolder;
+}
+.riskQueCon>div{
+	border: 1px #8000ff dotted;border-radius:10px;padding-top: 5px;padding-bottom: 5px;
+}
+#pageBox>div{
+	margin: 0;
+	float:right;
+}
+
+#riskData .layui-table-cell{
+	height: 19px;
+	line-height: 19px;
+}
+
+/* 设置报表表格基本样式 */
+#riskData  tr:NTH-CHILD(odd){
+	background-color: #b3b8cc;
+}
+#riskData  tr:NTH-CHILD(even){
+	background-color: #e1e1e1;
+}
+#riskData th{
+	background-color: #212d3c;
+	font-size: 16px;
+	font-weight: bolder;
+	text-align: center;
+	color: white;
+}
+
+#riskData  tr:hover{
+	background-color: #8ac9cc;
+}
+#amountCon{
+	text-align: center;
+	font-size: 14px;
+}
+
+.amount-in,.amount-out,.amount-dh,.amount-default{
+	font-weight: bolder;
+}
+.amount-in{
+	color: green;
+}
+.amount-out{
+	color: #ff8000;
+}
+.amount-dh{
+	color: #808000;
+}
+.amount-default{
+	color: #fffefe;
+}

@@ -1,0 +1,246 @@
+body{
+    background: url(../../img/main_bg.jpg);
+    position: relative;
+}
+.nav.nav-tabs a{
+	font-size: 16px;
+	font-family: "microsoft yahei";
+	/* font-weight: bolder; */
+	color: #12f2ff;
+}
+#cav{
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index: -1;
+}
+.container {
+	background: url(../../img/accSys-bg_meitu_1.jpg) no-repeat;
+	background-position: 0px -18px;
+	background-size: 100%;
+	margin-top: 1%;
+}
+
+#head {
+	border-bottom: burlywood double 2px;
+}
+.modal-content{
+	background-image:url(../../img/modal_bg.jpg);
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+}
+.border {
+	border: 1px double bisque;
+}
+
+.areaSize {
+	width: 280px;
+	height: 90px;
+	font-size: 24px;
+	font-family: 微软雅黑;
+	/* color: moccasin; */
+}
+
+#fun button {
+	background: none;
+}
+
+#left .row {
+	margin-top: 5px;
+}
+
+.selectLabel {
+	margin: 0;
+	padding: 0;
+	/* width: 45px; */
+	line-height: 55px;
+	/* color: paleturquoise; */
+}
+
+.select-con {
+	padding: 0;
+	padding-left: 2px;
+	line-height: 45px;
+	padding-top: 10px;
+}
+/*重写bootstrap各行换色效果*/
+#dataTable>tbody>tr:nth-child(odd) {
+	background-color: #e8dda88a;
+}
+/*重写bootstrap各行换色效果*/
+#dataTable>tbody>tr:nth-child(even) {
+	background-color: #b6c3c36e;
+}
+
+#countTbl>tbody>tr:nth-child(odd) {
+	background-color: cornsilk;
+}
+#countTbl>tbody>tr:nth-child(even) {
+	background-color: aliceblue;
+}
+
+/*重写鼠标移动效果*/
+.table.table-hover tr:hover {
+	background: #e0bebe59;
+}
+
+.table1 {
+	border: #CCCCCC 3px solid;
+	margin-top: 5px;
+	background: whitesmoke;
+	height: 350px;
+}
+
+.table {
+	margin: 0;
+}
+
+.table tbody tr td {
+	/* overflow: hidden; 
+	text-overflow: ellipsis; */
+	white-space: nowrap;
+	/* border:1px solid #acacd7; */
+}
+
+.cal {
+	color: #8000ff;
+}
+
+#amount, .cal {
+	font-weight: bolder;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+
+#amount {
+	color: darkorange;
+}
+
+.bg-color {
+	background: blueviolet;
+}
+
+.pagination {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*文字滚动css*/
+#gongao {
+	width: 600px;
+	height: 24px;
+	overflow: hidden;
+	line-height: 24px;
+	font-size: 13px;
+	font-family: '宋体';
+	background: none;
+	color: #0C77CF;
+	font-weight: bold;
+}
+
+#gongao #scroll_begin,#gongao #scroll_end {
+	display: inline
+}
+
+.modal-position{
+	margin-top: 3px;
+}
+
+.parentStyle>td{
+	color:#274e13;
+	font-family: 微软雅黑;
+	font-weight: bolder;
+}
+.tdDesc{
+	 /* for IE */  
+    text-overflow: ellipsis;
+    /* for Firefox,mozilla */ 
+    -moz-text-overflow: ellipsis;
+    overflow: hidden;  
+    white-space: nowrap;  
+    text-align: left;
+    padding-left: 2%;
+}
+
+.table tr,.table th{
+	text-align: center;
+}
+.table th{
+	background-color: #c0c0c0;
+	color: #004080;
+	border: 1px green solid
+}
+.sty{
+	height: 340px;
+} 
+#moneyRiskWarmLabel{
+	font-size: 16px;text-align: center;color: #000040;
+}
+#moneyRiskWarmLabel span{
+	color: #d1a7f1;
+    font-family: 仿宋;
+    font-size: 22px;
+}
+
+#dynamicImg,#dynamicImg2{
+	background-color: #F3F3F3b0;
+	margin: 0 auto;
+}
+#ledDetail .modal-content{
+	width:500px;
+	height: 400px;
+}
+ledgerAnalysis .modal-content{
+	width:600px;
+	height: 577px;
+}
+
+/*20190805 账目清单样式*/
+.ledger-list-sty{
+	background-color: #4bdc3f4f;
+    border-radius: 14px 0px 14px 0px;
+    box-shadow: 5px 4px 3px 0px #85979c9e;
+    width: 260px;
+	padding-left: 6px;
+	padding-right: 2px;
+}
+.ledger-list-sty .ledName{
+	text-align: left;font-weight: bolder;
+}
+.ledger-list-sty .amount{
+font-weight: bolder;text-align: right;
+}
+.ledger-list-sty .amount>span{
+color: green;
+}
+.ledger-list-sty .ledType{
+color: darkgreen;font-size: 10px;text-align: left;
+}
+.ledger-list-sty .ledTime{
+font-weight: bolder;font-size: 10px;text-align: left;
+}
+.ledger-list-sty .payType{
+text-align: right;font-size: 10;color: blueviolet;
+}
+
+.table tbody tr td{
+	white-space: normal;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  /*padding: 8px;
+  /* line-height: 1.42857143; */
+   vertical-align: inherit;
+ /* border-top: 1px solid #ddd;*/
+}
+.myModal{
+	margin-top:10%;
+	/*transform:translate(-50%,-50%);*/
+	min-width:80%;/*这个比例可以自己按需调节*/
+}

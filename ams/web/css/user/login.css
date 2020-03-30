@@ -1,0 +1,143 @@
+body{
+    background-image: url(../../img/main_bg.jpg);
+}
+#cav{
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index: -1;
+}
+
+.border{border: solid green 1px;}
+#title{
+    height: 200px;
+    line-height: 10;
+    /* border: 5px double #C0C0C0; */
+}
+#title>p{
+    text-align: right;
+    font-weight: bolder;
+    font-size: 16px;
+    color: #333;
+}
+#title>h2{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: lightblue solid 3px;
+}
+.container{
+    background: url(../../img/accsys_bg.jpg) no-repeat;
+    background-size: 100%;
+    margin-top: 1%;
+    height: 560px;
+    padding-top: 2%
+}
+
+#loginForn h3{
+   	color: rgba(51, 122, 183, 0.81);
+    font-variant: initial;
+    font-family: 幼圆;
+    font-weight:bolder;
+    font-size: 24px;
+}
+
+.modal-content{
+	background-image:url(../../img/modal_bg.jpg);
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+}
+
+.form-horizontal{
+    padding-top: 15px;
+}
+
+.tips{
+    line-height: 33px;
+    display: none;
+    font-size: 10px;
+}
+
+.sty{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.find-name{
+    width: 90px;
+}
+.find-value{
+    width: 150px;
+}
+.find-btn{
+    width: 115px;
+   margin-left: 18px;
+}
+.tel-msg-span{
+    font-family: 微软雅黑;
+    font-size: 12px;
+    font-weight: bolder;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: blueviolet;
+    padding-top: 2px;
+}
+
+.nav.nav-tabs a{
+	font-size: 16px;
+	font-family: "microsoft yahei";
+	/* font-weight: bolder; */
+	color: #12f2ff;
+}
+
+
+input[id=loginName],input[id=loginPass]{
+	width: 200px;
+	font-family: 隶书;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #3367ae;
+}
+h3 small{
+	color: #585808;
+	float: right;
+	padding-top: 12px;
+	
+}
+
+#pwdView label{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.my-modal{
+	width:400px;
+	background-color: #d3c8d1;
+	border-radius:12px 0px 24px 0px;
+	box-shadow: 12px 10px 22px #808080;
+	position:fixed;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    overflow: hidden;
+    display: none;
+}
+
+.my-modal-head{
+	text-align:center;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	font-weight: bolder;
+	text-align: center;
+	margin-top: 10px;
+	padding-bottom: 12px;
+	margin-bottom:10px;
+	border-bottom: 2px solid #f8f7fd; 
+}
+
+/* 颜色相关 */
+.color-red{
+	color: red;
+}
+
