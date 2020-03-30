@@ -1,0 +1,2 @@
+# AccountingManagementSystem
+Java原生财务管理系统
