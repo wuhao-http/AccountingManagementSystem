@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e871f333-fa48-477c-ac4c-d936aae24f85" name="Default Changelist" comment="" />
+    <list default="true" id="e871f333-fa48-477c-ac4c-d936aae24f85" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsps/mainPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsps/mainPage.jsp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,14 +63,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="jsp" value="2" />
+          <entry key="jsp" value="6" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSP" value="2" />
+          <entry key="JSP" value="6" />
           <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="jsp" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSP" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -78,8 +90,43 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="459">
+              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/user/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4854">
+              <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/user/registPage.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2154" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/user/proCenterPage.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7635" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/mainPage.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2517">
+              <caret line="123" column="21" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="21" />
+              <folding>
+                <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,20 +134,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ams/servlet/MyServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="432">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -108,14 +143,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/mng/ledgerMng.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-16356" />
+            <state relative-caret-position="-11887" />
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/mng/sortMng.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
+            <state relative-caret-position="-27">
               <caret line="32" column="42" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="42" />
             </state>
           </provider>
@@ -137,9 +172,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/com/ams/servlet/MyServlet.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsps/mainPage.jsp" />
       </list>
     </option>
   </component>
@@ -156,7 +192,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="270" />
     <option name="y" value="145" />
     <option name="width" value="1400" />
@@ -192,13 +228,6 @@
             <path>
               <item name="ams" type="b2602c69:ProjectViewProjectNode" />
               <item name="ams" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ams" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ams" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ams" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -206,6 +235,37 @@
               <item name="ams" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ams" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ams" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ams" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ams" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsps" type="462c0819:PsiDirectoryNode" />
+              <item name="mng" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ams" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ams" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsps" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ams" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ams" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsps" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ams" type="b2602c69:ProjectViewProjectNode" />
@@ -220,7 +280,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585559319780" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585559778709" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -366,12 +426,12 @@
       <option name="presentableId" value="Default" />
       <updated>1585542182226</updated>
       <workItem from="1585542183629" duration="3488000" />
-      <workItem from="1585556566448" duration="879000" />
+      <workItem from="1585556566448" duration="1494000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4367000" />
+    <option name="totallyTimeSpent" value="4982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -420,19 +480,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/com/shangbo/accsys/dao/sql/SortMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ams/servlet/MyServlet.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -444,18 +493,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/com/shangbo/accsys/dao/sql/SortMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/mainPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2517">
+          <caret line="123" column="21" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/mng/ledgerMng.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16356" />
+        <state relative-caret-position="-11887" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/user/registPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2154" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/user/proCenterPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7635" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/mng/sortMng.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="-27">
           <caret line="32" column="42" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsps/user/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4854">
+          <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
         </state>
       </provider>
     </entry>

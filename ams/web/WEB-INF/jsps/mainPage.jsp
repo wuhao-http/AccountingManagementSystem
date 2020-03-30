@@ -121,7 +121,7 @@
 			 </span>
 		  </div>
 	  </div>
-	  <canvas id="cav" style="position: ; left:0;top: 0;"></canvas>
+	  <canvas id="cav" style="position: center; left:0;top: 0;"></canvas>
 	  <script type="text/javascript" >
 	  	laydate.render({
 		  elem: '#year'
