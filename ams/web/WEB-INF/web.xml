@@ -3,17 +3,12 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
-    <!--<servlet>-->
-        <!--<servlet-name>MyServlet</servlet-name>-->
-        <!--<servlet-class>com.ams.servlet.MyServlet</servlet-class>-->
-    <!--</servlet>-->
-    <!--<servlet-mapping>-->
-        <!--<servlet-name>MyServlet</servlet-name>-->
-        <!--<url-pattern>/html</url-pattern>-->
-    <!--</servlet-mapping>-->
-    <!--<welcome-file-list>-->
-        <!--<welcome-file>index.jsp</welcome-file>-->
-    <!--</welcome-file-list>-->
-
+            <servlet>
+           <servlet-name>goto</servlet-name>
+           <jsp-file>/WEB-INF/jsp/test.jsp</jsp-file>--要跳转到的页面
+         </servlet>
+            <welcome-file-list>
+            <welcome-file>/WEB-INF/</welcome-file>
+          </welcome-file-list>
 
 </web-app>
