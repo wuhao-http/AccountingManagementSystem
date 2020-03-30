@@ -1,2 +1,2 @@
 # AccountingManagementSystem
-Java原生财务管理系统
+基于Java的财务管理系统
